@@ -138,4 +138,10 @@ sudo systemctl status jenkins
 ```
 
  
+# Project Snapshot
+## Fast Api test
 
+<img src= https://raw.githubusercontent.com/IAMPathak2702/ml-cd-ci-jenkins/main/result/images/FastApi%20Response%20(1).png>
+
+## Jenkins Dash Board
+<img src=https://raw.githubusercontent.com/IAMPathak2702/ml-cd-ci-jenkins/main/result/images/jenkins%20dashboard.png >
