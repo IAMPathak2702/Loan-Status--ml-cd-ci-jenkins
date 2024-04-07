@@ -89,4 +89,4 @@ def predict_gui(
 
 
 if __name__== "__main__":
-    uvicorn.run(app, host="0.0.0.0",port=8009)
+    uvicorn.run(app, port=8009)
