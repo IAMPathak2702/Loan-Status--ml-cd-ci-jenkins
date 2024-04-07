@@ -1,6 +1,5 @@
 # Setup Virtual Environment
 
-
 ```conda```
 # Create a virtual environment named jenkins-env with Python 3.11
 ```
