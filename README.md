@@ -1,3 +1,51 @@
+# Loan Status Prediction
+
+## Overview
+
+The "Loan Status Prediction" project aims to develop a machine learning model that predicts whether a loan application will be approved or denied based on various features provided by the applicant. This project is essential for financial institutions to automate the loan approval process, minimize risks, and improve efficiency.
+
+## Goals
+
+- Develop a machine learning model capable of accurately predicting loan status.
+- Analyze and preprocess the dataset to handle missing values, outliers, and feature engineering.
+- Evaluate the performance of the model using appropriate evaluation metrics such as accuracy, precision, recall, and F1-score.
+- Deploy the trained model into production, enabling real-time loan status predictions.
+- Monitor the model's performance over time and update it as necessary to maintain accuracy and reliability.
+
+## Technologies Used
+
+- Python: Programming language for data preprocessing, model development, and deployment.
+- Scikit-learn: Python library for machine learning algorithms, model evaluation, and preprocessing techniques.
+- Pandas: Data manipulation library for handling datasets and data preprocessing.
+- FastApi: Micro web framework for deploying machine learning models as RESTful APIs.
+- Docker: Containerization tool for packaging the application and its dependencies.
+- AWS (Amazon Web Services): Cloud platform for hosting the application and managing resources.
+- Jenkins: Automation server for continuous integration and continuous deployment (CI/CD) pipelines.
+
+
+## Workflow
+
+1. **Data Collection and Exploration**: Obtain the loan dataset and perform exploratory data analysis (EDA) to understand the data's characteristics and identify patterns.
+
+2. **Data Preprocessing**: Cleanse the dataset by handling missing values, encoding categorical variables, scaling numerical features, and performing feature engineering.
+
+3. **Model Development**: Train and evaluate machine learning models using appropriate algorithms such as logistic regression, random forest, or gradient boosting.
+
+4. **Model Deployment**: Deploy the trained model using Flask as a RESTful API, allowing real-time loan status predictions.
+
+5. **Continuous Integration and Deployment (CI/CD)**: Implement CI/CD pipelines using Jenkins to automate the testing, building, and deployment processes.
+
+6. **Monitoring and Maintenance**: Monitor the deployed model's performance in production, analyze feedback, and update the model as necessary to ensure accuracy and reliability.
+
+## Conclusion
+
+The "Loan Status Prediction" project plays a crucial role in automating the loan approval process for financial institutions, enabling faster decision-making and improving customer experience. By leveraging machine learning techniques and modern technologies, this project showcases the potential for innovation in the finance industry.
+
+
+
+
+
+
 # Setup Virtual Environment
 
 
@@ -143,6 +191,13 @@ sudo systemctl status jenkins
 ## Fast Api test
 
 <img src= https://raw.githubusercontent.com/IAMPathak2702/ml-cd-ci-jenkins/main/result/images/FastApi%20Response%20(1).png>
+
+
  
 ## Jenkins Dash Board
-<img src=https://raw.githubusercontent.com/IAMPathak2702/ml-cd-ci-jenkins/main/result/images/jenkins%20dashboard.png >
+
+<img src= https://raw.githubusercontent.com/IAMPathak2702/ml-cd-ci-jenkins/main/result/images/jenkins%20dashboard.png>
+
+# Build Detail
+
+<img src= https://raw.githubusercontent.com/IAMPathak2702/ml-cd-ci-jenkins/main/result/images/builddetail.png>
