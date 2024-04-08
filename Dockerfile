@@ -20,7 +20,7 @@ COPY . /code
 RUN pip install --no-cache-dir -r /code/src/requirements.txt
 
 # Port Exposed: 8005 
-EXPOSE 8005
+EXPOSE 9000
 
 WORKDIR /code/src
 
