@@ -27,6 +27,3 @@ WORKDIR /code/src
 ENV PYTHONPATH "${PYTHONPATH}:/code/src"
 
 RUN pip install -e .
-
-# Define the default command to run when the container starts
-CMD ["python", "/code/src/prediction_model/training_pipeline.py"]
