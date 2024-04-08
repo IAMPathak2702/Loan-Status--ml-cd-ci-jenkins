@@ -1,4 +1,4 @@
-# Use the official Python 3.11 slim-buster image as the base image
+# Using the official Python 3.11 slim-bullseye image as the base image
 FROM python:3.11.8-slim-bullseye
 
 # Update package index and install required system dependencies
@@ -19,11 +19,13 @@ COPY . /code
 # Install Python dependencies from requirements.txt
 RUN pip install --no-cache-dir -r /code/src/requirements.txt
 
-# Expose port 9654 to the outside world
+# Port Exposed: 8005 
 EXPOSE 8005
 
 WORKDIR /code/src
+
 # Set PYTHONPATH environment variable
 ENV PYTHONPATH "${PYTHONPATH}:/code/src"
 
+# Install the current directory in editable mode
 RUN pip install -e .
